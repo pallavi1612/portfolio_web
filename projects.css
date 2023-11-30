@@ -1,0 +1,179 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: black;
+ }
+ .navbar h2{
+    background-color: black;
+    color: rgb(229, 9, 20);
+    padding: 14px;
+    font-family: sans-serif;
+}
+.container1{
+    background-image: url('bg22.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+ }
+ .box{
+    position: absolute;
+    margin-top: 10vh;
+}
+#head{
+    margin-left: 20vh;
+    font-size: 8vh;
+    font-family:cursive;
+    color: rgb(251, 233, 233);
+    font-weight: bolder;
+}
+.box2{
+    margin-top: 8vh;  
+}
+#head2{
+    color: rgb(229, 9, 20);
+    font-family: sans-serif;
+    margin-left: 20vh;
+    margin-top: -4vh;
+}
+ul{
+    display: flex;
+    margin-left: 19vh;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    padding: 7px;
+    color: rgb(251, 236, 236);
+}
+.para{
+    margin-left:20vh ;
+    position: absolute;
+    color: rgb(184, 177, 177);
+    font-family: sans-serif;
+    margin-top: 2vh;
+}
+.str{
+    display: flex;
+    margin-top: 14vh;
+    margin-left: 20vh;
+    font-family: sans-serif;
+    color: rgb(224, 212, 212);
+}
+.str h6{
+    color: rgb(58, 57, 57);
+}
+.str span{
+    margin: -1px;
+}
+.navbar2{
+    background-color: black;
+    padding: 5px;
+    display: flex;
+}
+.navbar2 h2{
+    color: rgb(229, 9, 20);
+}
+.navbar2 h5{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 8px;
+    margin-left: 3vh;
+}
+.container2{
+    background-color: #343a40!important;
+    width: 194.4vh;
+   position: absolute;  
+}
+.container2 ul{
+    display: flex; 
+    font-family: sans-serif;
+    margin-left: 58px;
+    margin-top: 14vh;  
+}
+.container2 ul li{
+    list-style: none;
+}
+.container2 .head2{
+    font-size: 31px;
+    color: white;
+}
+.container2 .name{
+    color: rgb(107, 104, 104);
+    margin-top: 13px; 
+}
+.container2 h6{
+    margin-left: 9vh;
+    color:white;
+    font-family: sans-serif;
+}
+.container2 #year{
+    color: white;
+    font-family: sans-serif;
+}
+#year{
+    margin-top: 2vh;
+    margin-left: 9vh;
+}
+.container2 .para2{
+    color: white;
+    margin-left:9vh ;
+    margin-top: 1vh;
+    font-family: sans-serif;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+   background-color: #343a40!important;
+}
+.card{
+    margin: 8px;
+}
+.card-title{
+    color: white;
+}
+.card-text{
+    color: rgb(186, 182, 182);
+}
+#img2{
+    height: 214px;
+}
+@media only screen and (min-width:550px){
+    .navbar{
+        width: 195vh;
+    }
+    .container1{
+        width: 195vh;
+    }
+    .navbar2{
+        width: 195vh;
+    }
+    #head{
+        font-size: 6vh;
+    }
+    .cards{
+        margin: 20px;
+    }
+}
+@media only screen and (width<=550px){
+    .navbar{
+        width: 195vh;
+    }
+    .container1{
+        width: 195vh;
+    }
+    .navbar2{
+        width: 195vh;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: (1,1fr);
+    }
+    #head{
+        font-size: 4vh;
+        justify-content: center;
+    }
+
+}

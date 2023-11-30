@@ -1,0 +1,200 @@
+ *{
+    margin: 0;
+    padding: 0;
+    margin-top: 0%;
+ }
+ .navbar{
+    background-color: black;
+    width: 200vh;
+ }
+ .navbar h2{
+    background-color: black;
+    color: rgb(229, 9, 20);
+    padding: 8px;
+    font-family: sans-serif;
+}
+.container1{
+    background-image: url('bg13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 240vh;  
+ }
+ .box{
+     position: absolute;
+     margin-top: 10vh;
+ }
+ #head{
+     margin-left: 17vh;
+     font-size: 8vh;
+     font-family:cursive;
+     color: rgb(251, 233, 233);
+     font-weight: bolder; 
+ }
+ .box2{
+     margin-top: -17vh; 
+ }
+ h5{
+    font-family: sans-serif;
+    margin-left: 20vh;
+    margin-top: 23vh;
+    color: rgb(173, 72, 72);
+}
+ul{
+    display: flex;
+    margin-left: 19vh;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    padding: 7px;
+    color:black;
+}
+.para{
+    margin-left:20vh ;
+    position: absolute;
+    color: rgb(192, 182, 182);
+    font-family: sans-serif;
+}
+.str{
+    display: flex;
+    margin-top: -99px;
+    margin-left: 0vh;
+    font-size: 20px;
+}
+.str h5{
+    color: black;
+}
+.navbar2{
+    background-color: black;
+    padding: 5px;
+    display: flex;
+}
+.navbar2 h2{
+    color: rgb(229, 9, 20);
+}
+.navbar2 h5{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 8px;
+    margin-left: 3vh;
+}
+.container2{
+    background-color: rgb(32, 30, 30);
+    width: 194.4vh;
+   position: absolute;  
+}
+.container2 ul{
+    display: flex; 
+    font-family: sans-serif;
+    margin-left: 58px;
+    margin-top: 14vh; 
+}
+.container2 ul li{
+    list-style: none;
+}
+.container2 .head2{
+    font-size: 31px;
+    color: white;
+}
+.container2 .name{
+    color: rgb(107, 104, 104);
+    margin-top: 13px;  
+}
+.container2 h6{
+    margin-left: 9vh;
+    color:white;
+    font-family: sans-serif;
+}
+.container2 #year{
+    color: white;
+    font-family: sans-serif;
+}
+#year{
+    margin-top: 2vh;
+    margin-left: 9vh;
+}
+.container2 .para2{
+    color: white;
+    margin-left:9vh ;
+    margin-top: 1vh;
+    font-family: sans-serif;
+}
+.cards{
+    background-color: #343a40!important;
+    justify-content: center;
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(4,1fr);
+}
+.cards .card{
+    margin: 8px;   
+}
+.card-text{
+    margin-top:0px;
+}
+.card-title{
+    margin-top:0px ;
+    margin-left: 0px;
+}
+#img2{
+    height: 197px;
+}
+#img3{
+    height: 197px;
+}
+#img8{
+    height: 197px;
+}
+.card-title{
+    margin-left: 2px;
+    color: white;
+}
+.card-text{
+    color: rgb(186, 182, 182);
+}
+@media only screen and (min-width:929px){
+    .container1{
+        width: 194vh;
+    }
+    .navbar{
+        width: 194vh;
+    }
+    .navbar2{
+        width: 194vh;
+    }
+    .container2{
+        width: 194vh;
+    }
+    .cards{
+        width: 194vh;   
+    }
+}
+@media only screen and (width<=929px){
+    .container1{
+        width: 186vh;
+    }
+    .navbar{
+        width: 186vh;
+    }
+    .navbar2{
+        width: 186vh;
+    }
+    .container2{
+        width: 186vh;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(3 ,0fr);
+        justify-content: center;
+        width: 186vh; 
+        margin: 15px;  
+    }
+    #head{
+        position:fixed;
+        font-size: 24px;
+
+    }
+        
+}

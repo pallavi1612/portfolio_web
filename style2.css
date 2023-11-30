@@ -1,0 +1,58 @@
+.navbar{
+    background-color: black;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+h3{
+    color: rgb(229, 9, 20);
+}
+.elements{
+    display: flex;
+    margin-top: 1vh;
+    margin-left: 45vh;
+}
+h5{
+    margin: 30px; 
+    color: white;    
+}
+.more{
+    margin-left:58vh ;
+    color: rgb(245 4 60);
+}
+.carousel-item active{
+    background-image: url('bg2.jpg');
+}
+#head1{
+    color: rgb(245 4 60);
+    font-weight: bolder;
+    margin-top: -65vh;
+}
+#btn1{
+    width: 200px;
+    padding: 14px;
+    background-color: black;
+    color: white;
+}
+.img1{
+    height: 90vh;
+}
+#head2{
+    color: rgb(245 4 60);
+    font-weight: bolder;
+    margin-top: -60vh;
+}
+#head3{
+    color: rgb(245, 4, 60);
+    font-weight: bolder;
+    margin-top: -55vh;  
+}
+@media only screen and (width<=1470px){
+    .container1{
+        width: 200vh;
+    }
+    .more{
+        margin-left: 38vh;
+    }
+}

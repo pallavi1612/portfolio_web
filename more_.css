@@ -1,0 +1,46 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.navbar{
+    background-color: black;
+    color: rgb(229, 9, 20);
+    padding: 4px;
+}
+.navbar h3{
+    color: rgb(229, 9, 20);
+}
+.container1{
+    background-color: #343a40!important;
+}
+h4{
+    color: white;
+    margin-left: 2vh; 
+}
+.cards{
+    display: flex;  
+}
+.card{
+    margin: 8px;
+}
+#img1 ,#img2 ,#img3 ,#img4{
+    height: 184px;
+}
+.card-title{
+    color: white;
+}
+.card-text{
+    color: rgb(215, 206, 206);
+}
+@media(width<=970px){
+    .navbar{
+        width:194vh;
+    }
+    .container1{
+        width: 194vh;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+    }
+}

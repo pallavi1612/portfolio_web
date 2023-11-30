@@ -1,0 +1,181 @@
+.navbar{
+    background-color: black;
+    color: rgb(229, 9, 20);
+    padding: 4px;
+}
+.navbar h3{
+    color: rgb(229, 9, 20);
+}
+.container1{
+   background-image: url('bg3.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 80vh;
+}
+.box{
+    position: absolute;
+    margin-top: 10vh;
+}
+#head{
+    margin-left: 20vh;
+    font-size: 8vh;
+    font-family:cursive;
+    color: rgb(251, 233, 233);
+    font-weight: bolder;
+}
+.box2{
+    margin-top: 8vh;  
+}
+h5{
+    font-family: sans-serif;
+    margin-left: 20vh;
+    margin-top: 23vh;
+}
+ul{
+    display: flex;
+    margin-left: 14vh;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    padding: 7px;
+    color: rgb(58, 57, 57);
+}
+.para{
+    margin-left:20vh ;
+    position: absolute;
+    color: black;
+    font-family: sans-serif;
+}
+.str{
+    display: flex;
+    margin-top: 16vh;
+    margin-left: 20vh;
+}
+.str h6{
+    color: rgb(58, 57, 57);
+}
+.str span{
+    margin: -1px;
+}
+.navbar2{
+    background-color: black;
+    padding: 4px;
+    display: flex;
+}
+.navbar2 h2{
+    color: rgb(229, 9, 20);
+}
+.navbar2 h5{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 12px;
+    margin-left: 3vh;
+}
+.container2{
+    background-color: #343a40!important;
+    background-size: cover;
+   position: absolute;  
+}
+.container2 ul{
+    display: flex; 
+    margin-left: 2vh;
+    margin-top: 14vh;
+}
+.container2 ul li{
+    list-style: none;
+}
+.container2 .head2{
+    font-size: 31px;
+    color: white; 
+}
+.container2 .name{
+    color: rgb(107, 104, 104);
+    margin-top: 13px;  
+}
+.container2 h6{
+    margin-left: 9vh;
+    margin-top: -18px;
+    color:white;
+}
+.container2 #year{
+    color: white;
+}
+#year{
+    margin-top: 2vh;
+}
+.container2 .para2{
+    color: white;
+    margin-left:9vh ;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    background-color: #343a40!important;
+}
+.cards .card{
+    margin: 10px;
+}
+#img0{
+    height: 163px;
+}
+#img1{
+    height: 163px;
+}
+#img2{
+    width: 216px;
+    height: 163px;
+}
+#img3{
+   height:163px ;
+}
+.card-title{
+    margin-left: 2px;
+    color: white;
+}
+.card-text{
+    color: rgb(186, 182, 182);
+}
+@media only screen and (min-width:509px){
+    .navbar{
+        width: 194vh;
+    }
+    .navbar2{
+        width: 194vh;
+    }
+    .container1{
+        width: 194vh;
+    }
+    .container2{
+        width: 194vh;
+    }
+}
+@media only screen and (width<=509px){
+    .navbar{
+        width: 192vh;
+    }
+    .navbar2{
+        width: 192vh;
+    }
+    .container1{
+        width: 192vh;
+    }
+    .container2{
+        width: 192vh;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2 ,0fr);
+    }
+    .cards .card{
+        margin: 20px;
+    }
+    #head{
+        font-size: 3vh;
+    }
+    .str{
+        margin-top: 25vh;
+    }
+}
